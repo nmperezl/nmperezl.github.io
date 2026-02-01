@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.site-header {
+  padding: 24px 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.hero {
+  padding: 120px 40px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #555;
+}
