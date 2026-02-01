@@ -1,3 +1,12 @@
+  <!-- MODAL PROYECTOS -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
