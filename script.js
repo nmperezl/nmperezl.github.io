@@ -22,7 +22,13 @@ const projects = {
   indicadores: {
     title: "Indicadores Urbanos – Mendoza",
     text: "Construcción y análisis de indicadores para la lectura del territorio urbano."
-  }
+  },
+
+  bariloche: {
+  title: "Estudio Conceptual de la Movilidad en Bariloche",
+  text: "Análisis conceptual de la movilidad urbana en la ciudad de Bariloche, con enfoque territorial y diagnóstico de dinámicas de desplazamiento."
+}
+
 };
 
 function openProject(key) {
