@@ -88,3 +88,46 @@ body {
   color: #444;
   max-width: 700px;
 }
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-card h3 {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 32px;
+  max-width: 500px;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+}
