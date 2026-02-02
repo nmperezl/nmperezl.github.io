@@ -49,3 +49,11 @@ function openProject(key) {
 function closeProject() {
   document.getElementById("project-modal").classList.add("hidden");
 }
+
+// MAPA RECORRIDOS
+const map = L.map("map").setView([-41.1335, -71.3103], 12); // Bariloche (ajustamos después)
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "© OpenStreetMap"
+}).addTo(map);
+
