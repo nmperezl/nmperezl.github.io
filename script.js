@@ -132,14 +132,15 @@ recorridos.forEach(r => {
           weight: 3,
           opacity: 0.8
         },
-        onEachFeature: (feature, layer) => {
-          layer.on("click", () => {
-            openRecorrido(r.nombre)
-          });
+        layer.eachLayer(l => {
+  l.on("click", () => openRecorrido(r.nombre));
+});
         }
       });
 
 
+
+      
       
       recorridosLayer.addLayer(layer);
       map.fitBounds(recorridosLayer.getBounds());
