@@ -2,7 +2,8 @@ const projects = {
   atlas: {
     title: "Atlas Vial – CABA",
     image: "images/projects/atlas_vial2.png",
-    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Elaboración de cartografía, digitalización y georreferenciación del Código de Tránsito y Transporte, contribuyendo al desarrollo del Atlas Vial del Gobierno de la Ciudad de Buenos Aires."
+    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Elaboración de cartografía, digitalización y georreferenciación del Código de Tránsito y Transporte, contribuyendo al desarrollo del Atlas Vial del Gobierno de la Ciudad de Buenos Aires.",
+     link: "https://buenosaires.gob.ar/jefaturadegabinete/movilidad/transporte/normas-de-estacionamiento"
   },
   pms: {
     title: "Plan de Movilidad Sustentable – CABA",
@@ -12,12 +13,14 @@ const projects = {
   gtfs: {
     title: "Base Única de Paradas – GTFS CABA",
     image: "images/projects/paradas_gtfs2.png",
-    text: "Gerencia Operativa de Innovación y Tecnología en Transporte - MDUyT - GCBA. Unificación de bases de datos de paradas de transporte urbano de pasajeros para su procesamiento en GTFS y sistemas predictivos."
+    text: "Gerencia Operativa de Innovación y Tecnología en Transporte - MDUyT - GCBA. Unificación de bases de datos de paradas de transporte urbano de pasajeros para su procesamiento en GTFS y sistemas predictivos.",
+    link: "https://datosabiertos-apis.buenosaires.gob.ar/BA_Root/Documentacion?schema_name=Transporte_3"
   },
   bariloche: {
     title: "Estudio Conceptual de la Movilidad en Bariloche",
     image: "images/projects/estudio_movilidad_brc2.png",
-    text: "Consultoría para el Banco Interamericano de Desarrollo (BID) en estudio conceptual para la mejora de la movilidad y el transporte en el centro de la ciudad de San Carlos de Bariloche."
+    text: "Consultoría para el Banco Interamericano de Desarrollo (BID) en estudio conceptual para la mejora de la movilidad y el transporte en el centro de la ciudad de San Carlos de Bariloche.",
+    link: "https://www.bariloche.gov.ar/participacion-ciudadana-3/"
   },
   ign: {
     title: "Mapas Base – IGN",
