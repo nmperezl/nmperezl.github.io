@@ -264,25 +264,55 @@ a:hover {
 }
 
 /* =======================
-   CONTACTO
+   CONTACTO – FORMULARIO
 ======================= */
-.contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0 0;
+.contact-form {
+  max-width: 480px;
+  margin-top: 2rem;
 }
 
-.contact-list li {
-  margin-bottom: 0.75rem;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
-.contact-list a {
-  font-size: 1rem;
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #a28fd0;
+}
+
+.contact-form button {
+  background-color: #111;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #3a3a3a;
+}
+
+.contact-linkedin {
+  margin-top: 2rem;
+}
+
+.contact-linkedin a {
   font-weight: 500;
   color: #111;
 }
 
-.contact-list a:hover {
+.contact-linkedin a:hover {
   color: #a28fd0;
 }
-
