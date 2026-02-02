@@ -57,9 +57,41 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap"
 }).addTo(map);
 
+
+const recorridosInfo = {
+  "Cinco Lagunas": {
+    text: "Travesía de montaña entre lagunas."
+  },
+  "Cadenita": {
+    text: "Encadenamiento de cerros."
+  },
+  "Capilla": {
+    text: "Acercamiento en embarcación"
+  },
+  "Falso Granítico": {
+    text: ""
+  },
+  "Laguna de los Tres": {
+    text: ""
+  },
+  "Laguna Torre": {
+    text: ""
+  },
+  "Cerro Otto": {
+    text: ""
+  }
+  // después sumamos los demás
+};
+
+
+
 // =======================
 // RECORRIDOS – Leaflet
 // =======================
+
+
+
+
 
 const recorridos = [
   { file: "5_lagunas.geojson", nombre: "Cinco Lagunas" },
