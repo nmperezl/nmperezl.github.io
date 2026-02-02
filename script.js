@@ -123,20 +123,20 @@ recorridos.forEach(r => {
   fetch(`data/recorridos/${r.file}`)
     .then(res => res.json())
     .then(data => {
-      const layer = L.geoJSON(data, {
-        coordsToLatLng: function (coords) {
-          return L.latLng(coords[1], coords[0]);
-        },
-        style: {
-          color: "#000",
-          weight: 3,
-          opacity: 0.8
-        },
-        layer.eachLayer(l => {
-  l.on("click", () => openRecorrido(r.nombre));
+     const layer = L.geoJSON(data, {
+  coordsToLatLng: function (coords) {
+    return L.latLng(coords[1], coords[0]);
+  },
+  style: {
+    color: "#000",
+    weight: 3,
+    opacity: 0.8
+  },
+  onEachFeature: function (feature, layer) {
+    layer.on("click", () => openRecorrido(r.nombre));
+  }
 });
-        }
-      });
+
 
 
 
@@ -162,3 +162,10 @@ function openRecorrido(nombre) {
 function closeRecorrido() {
   document.getElementById("recorrido-modal").classList.add("hidden");
 }
+
+;
+
+
+setTimeout(() => {
+  map.invalidateSize();
+}, 300)
