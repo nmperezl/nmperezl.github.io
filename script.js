@@ -40,6 +40,7 @@ const projects = {
 };
 
 
+
 function openProject(key) {
   const project = projects[key];
 
@@ -47,8 +48,22 @@ function openProject(key) {
   document.getElementById("modal-text").innerText = project.text;
   document.getElementById("modal-image").src = project.image;
 
+  const linkContainer = document.getElementById("modal-link");
+
+  if (project.link) {
+    linkContainer.innerHTML = `
+      <a href="${project.link}" target="_blank" rel="noopener">
+        Ver proyecto
+      </a>
+    `;
+    linkContainer.style.display = "block";
+  } else {
+    linkContainer.style.display = "none";
+  }
+
   document.getElementById("project-modal").classList.remove("hidden");
 }
+
 
 function closeProject() {
   document.getElementById("project-modal").classList.add("hidden");
