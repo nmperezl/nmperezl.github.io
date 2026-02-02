@@ -57,3 +57,44 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap"
 }).addTo(map);
 
+
+// RECORRIDOS (GeoJSON Runkeeper)
+const recorridos = [
+  {
+    file: "data/recorridos/5_lagunas.geojson",
+    nombre: "Cinco Lagunas"
+  },
+  {
+    file: "data/recorridos/cadenita.geojson",
+    nombre: "Cadenita"
+  },
+  {
+    file: "data/recorridos/ex.geojson",
+    nombre: "Ex"
+  },
+  {
+    file: "data/recorridos/falso_granitico.geojson",
+    nombre: "Falso Granítico"
+  }
+];
+
+recorridos.forEach(r => {
+  fetch(r.file)
+    .then(res => res.json())
+    .then(data => {
+      const layer = L.geoJSON(data, {
+        style: {
+          color: "#000",
+          weight: 3
+        },
+        onEachFeature: (feature, layer) => {
+          layer.on("click", () => {
+            alert("Recorrido: " + r.nombre);
+          });
+        }
+      }).addTo(map);
+
+      map.fitBounds(layer.getBounds());
+    });
+});
+
