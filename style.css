@@ -98,10 +98,12 @@ a:hover {
    SECCIONES
 ======================= */
 .section {
-  padding: 4rem 10%;
+  padding: 4rem 10%; /* 10% de margen a izquierda y derecha */
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;   /* centra el contenido */
+  box-sizing: border-box;
 }
+
 
 .section h2 {
   font-size: 2rem;
@@ -114,11 +116,9 @@ a:hover {
    PROYECTOS
 ======================= */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 arriba */
-  grid-auto-rows: auto;
-  gap: 2rem;
+  justify-items: center; /* centra las tarjetas dentro de la grid */
 }
+
 
 .project-card {
   background-color: #fff;
