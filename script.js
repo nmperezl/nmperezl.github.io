@@ -57,44 +57,58 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap"
 }).addTo(map);
 
+// =======================
+// RECORRIDOS – Leaflet
+// =======================
 
-// RECORRIDOS (GeoJSON Runkeeper)
 const recorridos = [
-  {
-    file: "data/recorridos/5_lagunas.geojson",
-    nombre: "Cinco Lagunas"
-  },
-  {
-    file: "data/recorridos/cadenita.geojson",
-    nombre: "Cadenita"
-  },
-  {
-    file: "data/recorridos/ex.geojson",
-    nombre: "Ex"
-  },
-  {
-    file: "data/recorridos/falso_granitico.geojson",
-    nombre: "Falso Granítico"
-  }
+  { file: "5_lagunas.geojson", nombre: "Cinco Lagunas" },
+  { file: "cadenita.geojson", nombre: "Cadenita" },
+  { file: "capilla.geojson", nombre: "Capilla" },
+  { file: "ex.geojson", nombre: "Ex" },
+  { file: "falso_granitico.geojson", nombre: "Falso Granítico" },
+  { file: "la_pataia.geojson", nombre: "La Pataia" },
+  { file: "laguna_azul.geojson", nombre: "Laguna Azul" },
+  { file: "laguna_de_los_tres.geojson", nombre: "Laguna de los Tres" },
+  { file: "laguna_torre.geojson", nombre: "Laguna Torre" },
+  { file: "lagunita_catedral.geojson", nombre: "Lagunita Catedral" },
+  { file: "motoco.geojson", nombre: "Motoco" },
+  { file: "otto.geojson", nombre: "Cerro Otto" },
+  { file: "otto_meiling.geojson", nombre: "Otto – Refugio Meiling" },
+  { file: "padre_laguna.geojson", nombre: "Padre Laguna" },
+  { file: "palotinos.geojson", nombre: "Palotinos" },
+  { file: "penitentes.geojson", nombre: "Penitentes" },
+  { file: "piltiriquitron.geojson", nombre: "Cerro Piltiriquitron" },
+  { file: "ponderado.geojson", nombre: "Ponderado" },
+  { file: "tromen.geojson", nombre: "Tromen" },
+  { file: "tronador.geojson", nombre: "Cerro Tronador" },
+  { file: "ventana.geojson", nombre: "Ventana" }
 ];
 
+const recorridosLayer = L.featureGroup().addTo(map);
+
 recorridos.forEach(r => {
-  fetch(r.file)
+  fetch(`data/recorridos/${r.file}`)
     .then(res => res.json())
     .then(data => {
       const layer = L.geoJSON(data, {
+        coordsToLatLng: function (coords) {
+          return L.latLng(coords[1], coords[0]);
+        },
         style: {
           color: "#000",
-          weight: 3
+          weight: 3,
+          opacity: 0.8
         },
         onEachFeature: (feature, layer) => {
           layer.on("click", () => {
-            alert("Recorrido: " + r.nombre);
+            alert(r.nombre);
           });
         }
-      }).addTo(map);
+      });
 
-      map.fitBounds(layer.getBounds());
-    });
+      recorridosLayer.addLayer(layer);
+      map.fitBounds(recorridosLayer.getBounds());
+    })
+    .catch(err => console.error("Error cargando", r.file, err));
 });
-
