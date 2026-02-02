@@ -116,17 +116,24 @@ a:hover {
    PROYECTOS
 ======================= */
 .projects-grid {
-  justify-items: center; /* centra las tarjetas dentro de la grid */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 
-.project-card {
+
+.project-card h3 {
   background-color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+   border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0.75rem 0 1rem;
+  text-align: center;
+  color: #222;
 }
+
 
 .project-card:hover {
   transform: translateY(-5px);
