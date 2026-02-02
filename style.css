@@ -56,10 +56,7 @@ a:hover {
 .nav-right a:hover {
   color: #a28fd0;
 }
-
-/* =======================
-   HERO / INICIO
-======================= */
+/* HERO / INICIO */
 .hero {
   display: flex;
   flex-direction: column;
@@ -72,33 +69,28 @@ a:hover {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 4rem;       /* Aumentamos el nombre */
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* Reducimos el espacio con el subtítulo */
   color: #111;
+  letter-spacing: 1px;
+}
+
+.hero h2 {
+  font-size: 1.3rem;     /* Subtítulo profesional y discreto */
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 0.25rem;
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1rem;       /* Texto aún más sutil */
   font-weight: 300;
-  color: #555;
+  color: #666;
+  max-width: 600px;      /* No ocupa toda la pantalla */
+  line-height: 1.5;
 }
 
-/* =======================
-   SECCIONES
-======================= */
-.section {
-  padding: 4rem 2rem;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.section h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  color: #111;
-}
 
 /* =======================
    PROYECTOS
