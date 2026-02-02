@@ -316,3 +316,21 @@ a:hover {
 .contact-linkedin a:hover {
   color: #a28fd0;
 }
+
+/* =======================
+   links
+======================= */
+.modal-link {
+  margin-top: 1rem;
+}
+
+.modal-link a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #111;
+}
+
+.modal-link a:hover {
+  color: #a28fd0;
+}
+
