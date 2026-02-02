@@ -53,8 +53,8 @@ function closeProject() {
 // MAPA RECORRIDOS
 const map = L.map("map").setView([-41.1335, -71.3103], 12); // Bariloche (ajustamos después)
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "© OpenStreetMap"
+L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+  attribution: '© OpenStreetMap contributors, © OpenTopoMap'
 }).addTo(map);
 
 
