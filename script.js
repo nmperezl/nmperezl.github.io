@@ -2,39 +2,43 @@ const projects = {
   atlas: {
     title: "Atlas Vial – CABA",
     image: "images/projects/atlas_vial2.png",
-    text: "Desarrollo de cartografía vial para la Ciudad de Buenos Aires, integrando análisis territorial y visualización de datos."
+    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Elaboración de cartografía, digitalización y georreferenciación del Código de Tránsito y Transporte, contribuyendo al desarrollo del Atlas Vial del Gobierno de la Ciudad de Buenos Aires."
   },
   pms: {
     title: "Plan de Movilidad Sustentable – CABA",
     image: "images/projects/pms_caba2.png",
-    text: "Participación en el Plan de Movilidad Sustentable de la Ciudad de Buenos Aires, con enfoque territorial y soporte cartográfico."
+    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Participación en la elaboración del Plan de Movilidad Sustentable 2020-2024 de la Ciudad de Buenos Aires."
   },
   gtfs: {
     title: "Base Única de Paradas – GTFS CABA",
     image: "images/projects/paradas_gtfs2.png",
-    text: "Procesamiento y análisis de datos GTFS para el estudio de redes de transporte público."
+    text: "Gerencia Operativa de Innovación y Tecnología en Transporte - MDUyT - GCBA. Unificación de bases de datos de paradas de transporte urbano de pasajeros para su procesamiento en GTFS y sistemas predictivos."
   },
   bariloche: {
     title: "Estudio Conceptual de la Movilidad en Bariloche",
     image: "images/projects/estudio_movilidad_brc2.png",
-    text: "Análisis conceptual de la movilidad urbana en el centro de Bariloche, con enfoque territorial."
+    text: "Consultoría para el Banco Interamericano de Desarrollo (BID) en estudio conceptual para la mejora de la movilidad y el transporte en el centro de la ciudad de San Carlos de Bariloche."
   },
   ign: {
     title: "Mapas Base – IGN",
     image: "images/projects/mapas_base_ign2.png",
-    text: "Elaboración y uso de mapas base a partir de información del Instituto Geográfico Nacional."
+    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). Elaboración y uso de mapas base a partir de información del Instituto Geográfico Nacional.",
+    link: "https://mapa.ign.gob.ar/?zoom=4&lat=-40&lng=-59&layers=argenmap"
   },
   ide: {
     title: "Fortalecimiento de la IDE Mendoza",
     image: "images/projects/ide_mdz2.png",
-    text: "Trabajo con Infraestructura de Datos Espaciales de la provincia de Mendoza."
+    text: "Consultoría para el fortalecimiento y modernización de la Infraestructura de Datos Espaciales de Mendoza.",
+    link: "https://ide.mendoza.gov.ar/portal/home/index.html"
   },
   indicadores: {
     title: "Indicadores Urbanos – Mendoza",
     image: "images/projects/iu_mdz2.png",
-    text: "Construcción y análisis de indicadores urbanos para el estudio del territorio mendocino."
+    text: "Integración de Zonificación e Indicadores Urbanos en un visualizador GIS para la gestión territorial del municipio de Mendoza.",
+    link: "https://ide.mendoza.gov.ar/portal/apps/experiencebuilder/experience/?id=9373b00cfbf24017a5b08471505615cd"
   }
 };
+
 
 function openProject(key) {
   const project = projects[key];
