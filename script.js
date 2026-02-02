@@ -134,13 +134,30 @@ recorridos.forEach(r => {
         },
         onEachFeature: (feature, layer) => {
           layer.on("click", () => {
-            alert(r.nombre);
+            openRecorrido(r.nombre)
           });
         }
       });
 
+
+      
       recorridosLayer.addLayer(layer);
       map.fitBounds(recorridosLayer.getBounds());
     })
     .catch(err => console.error("Error cargando", r.file, err));
 });
+
+
+function openRecorrido(nombre) {
+  document.getElementById("recorrido-title").innerText = nombre;
+
+  const info = recorridosInfo[nombre];
+  document.getElementById("recorrido-text").innerText =
+    info ? info.text : "Recorrido personal.";
+
+  document.getElementById("recorrido-modal").classList.remove("hidden");
+}
+
+function closeRecorrido() {
+  document.getElementById("recorrido-modal").classList.add("hidden");
+}
