@@ -1,6 +1,6 @@
 const projects = {
   bariloche: {
-    title: "Estudio Conceptual de la Movilidad en Bariloche",
+    title: "Estudio Conceptual de la Movilidad en el centro de Bariloche",
     text: "Análisis conceptual de la movilidad urbana en la ciudad de Bariloche, con enfoque territorial y diagnóstico de dinámicas de desplazamiento."
   },
   atlas: {
@@ -12,7 +12,7 @@ const projects = {
     text: "Participación en el Plan de Movilidad Sustentable de la Ciudad de Buenos Aires, con enfoque en análisis territorial y soporte cartográfico."
   },
   gtfs: {
-    title: "GTFS CABA",
+    title: "Base Unica de Paradas - GTFS CABA",
     text: "Procesamiento y análisis de datos GTFS para el estudio de redes de transporte público en la Ciudad de Buenos Aires."
   },
   ign: {
@@ -20,7 +20,7 @@ const projects = {
     text: "Elaboración y uso de mapas base a partir de información del Instituto Geográfico Nacional."
   },
   ide: {
-    title: "IDE Mendoza",
+    title: "Fortalecimiento de la IDE Mendoza",
     text: "Trabajo con Infraestructura de Datos Espaciales de la provincia de Mendoza, organización y visualización de nodos de información."
   },
   indicadores: {
