@@ -35,8 +35,10 @@ a:hover {
 
 .site-name {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
+  color: #3a3a3a; /* gris suave */
 }
+
 
 .nav-right {
   list-style: none;
