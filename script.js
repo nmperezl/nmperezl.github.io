@@ -223,3 +223,51 @@ function closeRecorrido() {
 setTimeout(() => {
   map.invalidateSize();
 }, 300)
+
+
+
+
+
+
+const overlayLayers = {}; // capas para control
+
+recorridos.forEach(r => {
+  fetch(`data/recorridos/${r.file}`)
+    .then(res => res.json())
+    .then(data => {
+      const layer = L.geoJSON(data, {
+        coordsToLatLng: function (coords) {
+          return L.latLng(coords[1], coords[0]);
+        },
+        style: {
+          color: "#000",
+          weight: 3,
+          opacity: 0.8
+        },
+        onEachFeature: function (feature, layer) {
+          layer.on("click", () => openRecorrido(r.nombre));
+        }
+      });
+
+      // Guardar en overlayLayers
+      overlayLayers[r.nombre] = layer;
+
+      // Añadir al mapa
+      layer.addTo(map);
+
+      // Ajustar bounds
+      map.fitBounds(layer.getBounds());
+    })
+    .catch(err => console.error("Error cargando", r.file, err));
+});
+
+L.control.layers(null, overlayLayers, { collapsed: false }).addTo(map);
+
+
+function focusRecorrido(nombre) {
+  const layer = overlayLayers[nombre];
+  if(layer){
+    map.fitBounds(layer.getBounds()); // hace zoom y centra
+    layer.eachLayer(l => l.openPopup()); // opcional, abre popups
+  }
+}
