@@ -73,11 +73,43 @@ function closeProject() {
 }
 
 // MAPA RECORRIDOS
-const map = L.map("map").setView([-41.1335, -71.3103], 12); // Bariloche (ajustamos después)
 
-L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
-  attribution: '© OpenStreetMap contributors, © OpenTopoMap'
-}).addTo(map);
+const osmBase = L.tileLayer(
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  {
+    attribution: "© OpenStreetMap"
+  }
+);
+
+
+const topoBase = L.tileLayer(
+  "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+  {
+    attribution: "© OpenTopoMap"
+  }
+);
+
+const map = L.map("map", {
+  center: [-41.1335, -71.3103],
+  zoom: 12,
+  layers: [osmBase] // empieza con OSM común
+});
+
+map.on("zoomend", () => {
+  const zoom = map.getZoom();
+
+  if (zoom >= 14) {
+    if (!map.hasLayer(topoBase)) {
+      map.removeLayer(osmBase);
+      map.addLayer(topoBase);
+    }
+  } else {
+    if (!map.hasLayer(osmBase)) {
+      map.removeLayer(topoBase);
+      map.addLayer(osmBase);
+    }
+  }
+});
 
 
 const recorridosInfo = {
