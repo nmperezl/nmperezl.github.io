@@ -100,7 +100,7 @@ a:hover {
    SECCIONES
 ======================= */
 .section {
-  padding: 4rem 10%; /* 10% de margen a izquierda y derecha */
+  padding: 2.5rem 10%; /* menos espacio arriba y abajo */
   max-width: 1200px;
   margin: 0 auto;   /* centra el contenido */
   box-sizing: border-box;
@@ -110,7 +110,7 @@ a:hover {
 .section h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem; /* menos que antes */
   color: #111;
 }
 
