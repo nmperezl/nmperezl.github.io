@@ -91,14 +91,14 @@ const topoBase = L.tileLayer(
 
 const map = L.map("map", {
   center: [-41.1335, -71.3103],
-  zoom: 12,
+  zoom: 11,
   layers: [osmBase] // empieza con OSM común
 });
 
 map.on("zoomend", () => {
   const zoom = map.getZoom();
 
-  if (zoom >= 14) {
+  if (zoom >= 12) {
     if (!map.hasLayer(topoBase)) {
       map.removeLayer(osmBase);
       map.addLayer(topoBase);
