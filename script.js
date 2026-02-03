@@ -25,7 +25,7 @@ const projects = {
   ign: {
     title: "Mapas Base – IGN",
     image: "images/projects/mapas_base_ign2.png",
-    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). Elaboración y uso de mapas base a partir de información del Instituto Geográfico Nacional.",
+    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). Diseño cartográfico y de representación de Argenmap a partir de información publicada del Instituto Geográfico Nacional.",
     link: "https://mapa.ign.gob.ar/?zoom=4&lat=-40&lng=-59&layers=argenmap"
   },
   ide: {
