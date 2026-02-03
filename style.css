@@ -334,3 +334,30 @@ a:hover {
   color: #a28fd0;
 }
 
+
+
+
+
+.recorridos-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem; /* espacio entre lista y mapa */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.recorridos-list li {
+  background-color: #f1f1f1;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.recorridos-list li:hover {
+  background-color: #a28fd0;
+  color: #fff;
+}
+
