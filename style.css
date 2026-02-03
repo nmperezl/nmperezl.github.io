@@ -26,11 +26,20 @@ a:hover {
 .site-header {
   padding: 24px 10%;
   background-color: #e0e0e0; /* gris claro distinto al fondo general */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* opcional, le da profundidad */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05); /* opcional, le da profundidad */
   position: sticky; /* opcional: que quede fijo al hacer scroll */
   top: 0;
   z-index: 1000;
 }
+
+.site-header .site-name {
+  font-size: 0.9rem;     /* chico */
+  font-weight: 300;      /* sin negrita */
+  color: #555;           /* discreto */
+  letter-spacing: 0.4px;
+}
+
+
 
 .nav {
   display: flex;
