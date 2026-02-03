@@ -114,28 +114,90 @@ map.on("zoomend", () => {
 
 const recorridosInfo = {
   "Cinco Lagunas": {
-    text: "Travesía de montaña entre lagunas."
+    text: "Travesía de montaña entre lagunas.",
+    photos: [
+      "images/recorridos/cinco_lagunas_1.jpg",
+      "images/recorridos/cinco_lagunas_2.jpg"
+    ]
   },
   "Cadenita": {
-    text: "Encadenamiento de cerros."
+    text: "Encadenamiento de cerros.",
+    photos: []
   },
   "Capilla": {
-    text: "Acercamiento en embarcación"
+    text: "Acercamiento al inicio de sendero en embarcación lacustre.",
+    photos: []
   },
   "Falso Granítico": {
-    text: ""
+    text: "Vistas al Tronador y Lago Mascardi.",
+    photos: []
+  },
+  "La Pataia": {
+    text: "",
+    photos: []
+  },
+  "Laguna Azul": {
+    text: "",
+    photos: []
   },
   "Laguna de los Tres": {
-    text: ""
+    text: "Vistas al Fitz Roy.",
+    photos: []
   },
   "Laguna Torre": {
-    text: ""
+    text: "",
+    photos: []
+  },
+  "Lagunita Catedral": {
+    text: "Recorrido por los filos.",
+    photos: []
+  },
+  "Motoco": {
+    text: "Valle del Motoco entre bosques de Alerces milenarios.",
+    photos: []
   },
   "Cerro Otto": {
-    text: ""
+    text: "",
+    photos: []
+  },
+  "Otto – Refugio Meiling": {
+    text: "",
+    photos: []
+  },
+  "Padre Laguna": {
+    text: "",
+    photos: []
+  },
+  "Palotinos": {
+    text: "",
+    photos: []
+  },
+  "Penitentes": {
+    text: "Vistas al Aconcagua.",
+    photos: []
+  },
+  "Cerro Piltiriquitron": {
+    text: "",
+    photos: []
+  },
+  "Ponderado": {
+    text: "",
+    photos: []
+  },
+  "Tromen": {
+    text: "",
+    photos: []
+  },
+  "Cerro Tronador": {
+    text: "",
+    photos: []
+  },
+  "Ventana": {
+    text: "",
+    photos: []
   }
-  // después sumamos los demás
 };
+
 
 
 
