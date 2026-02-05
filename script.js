@@ -274,16 +274,23 @@ function openRecorrido(nombre) {
 
   const info = recorridosInfo[nombre];
   document.getElementById("recorrido-text").innerText =
-    info ? info.text : "Recorrido personal.";
+    info?.text || "Recorrido personal.";
+
+  const photosContainer = document.getElementById("recorrido-photos");
+  photosContainer.innerHTML = "";
+
+  if (info?.photos && info.photos.length > 0) {
+    info.photos.forEach(src => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = nombre;
+      img.loading = "lazy";
+      photosContainer.appendChild(img);
+    });
+  }
 
   document.getElementById("recorrido-modal").classList.remove("hidden");
 }
-
-function closeRecorrido() {
-  document.getElementById("recorrido-modal").classList.add("hidden");
-}
-
-;
 
 
 setTimeout(() => {
