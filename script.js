@@ -174,7 +174,10 @@ const recorridosInfo = {
   },
   "Penitentes": {
     text: "Vistas al Aconcagua.",
-    photos: []
+    photos: [      
+      "images/recorridos/penitentes_1.jpg",
+      "images/recorridos/penitentes_2.jpg",
+      "images/recorridos/penitentes_3.jpg"]
   },
   "Cerro Piltiriquitron": {
     text: "",
