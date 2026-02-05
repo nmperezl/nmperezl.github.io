@@ -257,10 +257,6 @@ recorridos.forEach(r => {
   }
 });
 
-
-
-
-      
       
       recorridosLayer.addLayer(layer);
       map.fitBounds(recorridosLayer.getBounds());
@@ -276,7 +272,7 @@ function openRecorrido(nombre) {
   document.getElementById("recorrido-text").innerText =
     info?.text || "Recorrido personal.";
 
-  const photosContainer = document.getElementById("recorrido-photos");
+  const photosContainer = document.getElementById("recorrido-gallery");
   photosContainer.innerHTML = "";
 
   if (info?.photos && info.photos.length > 0) {
@@ -291,6 +287,7 @@ function openRecorrido(nombre) {
 
   document.getElementById("recorrido-modal").classList.remove("hidden");
 }
+
 
 
 setTimeout(() => {
