@@ -175,9 +175,9 @@ const recorridosInfo = {
   "Penitentes": {
   text: "Vistas al Aconcagua.",
   photos: [
-    "/nmperezl/images/recorridos/penitentes_1.jpg",
-    "/nmperezl/images/recorridos/penitentes_2.jpg",
-    "/nmperezl/images/recorridos/penitentes_3.jpg"
+  "/nmperezl/images/recorridos/penitentes_1.jpg",
+  "/nmperezl/images/recorridos/penitentes_2.jpg",
+  "/nmperezl/images/recorridos/penitentes_3.jpg"
   ]
 },
   "Cerro Piltiriquitron": {
