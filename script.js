@@ -265,14 +265,9 @@ recorridos.forEach(r => {
     .catch(err => console.error("Error cargando", r.file, err));
 });
 
-
 function openRecorrido(nombre) {
   document.getElementById("recorrido-title").innerText = nombre;
 
-  function closeRecorrido() {
-  document.getElementById("recorrido-modal").classList.add("hidden");
-}
-  
   const info = recorridosInfo[nombre];
   document.getElementById("recorrido-text").innerText =
     info?.text || "Recorrido personal.";
@@ -293,15 +288,9 @@ function openRecorrido(nombre) {
   document.getElementById("recorrido-modal").classList.remove("hidden");
 }
 
-
-
-setTimeout(() => {
-  map.invalidateSize();
-}, 300)
-
-
-
-
+function closeRecorrido() {
+  document.getElementById("recorrido-modal").classList.add("hidden");
+}
 
 
 const overlayLayers = {}; // capas para control
