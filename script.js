@@ -14,7 +14,7 @@ const projects = {
   gtfs: {
     title: "Base Única de Paradas – GTFS CABA",
     image: "images/projects/paradas_gtfs2.png",
-    text: "Gerencia Operativa de Innovación y Tecnología en Transporte - MDUyT - GCBA. Unificación de bases de datos de paradas de transporte urbano de pasajeros para su procesamiento en GTFS y sistemas predictivos.",
+    text: "Gerencia Operativa de Innovación y Tecnología en Transporte - MDUyT - GCBA. El desafío en este caso consistió en consolidar la información estática del sistema GTFS. En el caso de las paradas de colectivos, se encontraban distribuidas en tres bases operativas distintas: proyecto y ubicaciones legales, instalación en territorio y estimaciones derivadas del análisis de transacciones SUBE. Se realizó la unificación y estructuración de la información en una base única, documentando flujos de trabajo para articular las áreas de proyecto, instalación y fiscalización. Esta integración sirvió para generar el GTFS e integrar a los sistemas predictivos, así como para optimizar la planificación de nuevas paradas y evaluar costos de instalación.",
     link: "https://datosabiertos-apis.buenosaires.gob.ar/BA_Root/Documentacion?schema_name=Transporte_3"
   },
   bariloche: {
