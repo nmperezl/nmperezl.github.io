@@ -8,7 +8,8 @@ const projects = {
   pms: {
     title: "Plan de Movilidad Sustentable – CABA",
     image: "images/projects/pms_caba2.png",
-    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Participación en la elaboración del Plan de Movilidad Sustentable 2020-2024 de la Ciudad de Buenos Aires."
+    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Ante la necesidad de actualizar la estrategia de movilidad de la Ciudad de Buenos Aires, participé en la recopilación de antecedentes y en la estructuración del nuevo plan. Formé parte de un equipo multidisciplinario elaborando diagnóstico, sistematización de información y análisis territorial. El trabajo sirvió como base técnica para el posterior Plan de Movilidad 2030 publicado por la Ciudad.,
+     link: "https://buenosaires.gob.ar/gcaba_historico/noticias/la-ciudad-presento-el-plan-de-movilidad-sustentable-2030"
   },
   gtfs: {
     title: "Base Única de Paradas – GTFS CABA",
