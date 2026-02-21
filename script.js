@@ -26,7 +26,7 @@ const projects = {
   ign: {
     title: "Mapas Base – IGN",
     image: "images/projects/mapas_base_ign2.png",
-    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). En mi participación en el proyecto colaboré en definir los criterios de representación y diseño cartográfico para Argenmap, garantizando consistencia y actualización de los mapas base. Participé en el control y publicación de infomacion geoespacial, documentando procesos y articulando con equipos interdisciplinarios. Se desarrollaron nuevos mapas base y se aseguró su correcta actualización, transfiriendo además los conocimientos en las jornadas de la Infraestructura de Datos Espaciales de la Republica Argentina (IDERA)."",
+    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). En mi participación en el proyecto colaboré en definir los criterios de representación y diseño cartográfico para Argenmap, garantizando consistencia y actualización de los mapas base. Participé en el control y publicación de infomacion geoespacial, documentando procesos y articulando con equipos interdisciplinarios. Se desarrollaron nuevos mapas base y se aseguró su correcta actualización, transfiriendo además los conocimientos en las jornadas de la Infraestructura de Datos Espaciales de la Republica Argentina (IDERA).",
     link: "https://mapa.ign.gob.ar/?zoom=4&lat=-40&lng=-59&layers=argenmap"
   },
   ide: {
