@@ -20,7 +20,7 @@ const projects = {
   bariloche: {
     title: "Estudio Conceptual de la Movilidad en Bariloche",
     image: "images/projects/estudio_movilidad_brc2.png",
-    text: "En el marco de una Consultoría para el Banco Interamericano de Desarrollo (BID), el objetivo fue analizar el área central de San Carlos de Bariloche para proponer mejoras en su movilidad. Realicé relevamientos urbanos, evaluación de la calidad del espacio público y talleres participativos, elaborando un diagnóstico y esquemas conceptuales de posibles intervenciones. El estudio funciona como antecedente y base teórica para futuros proyectos de transformación urbana."",
+    text: "En el marco de una Consultoría para el Banco Interamericano de Desarrollo (BID), el objetivo fue analizar el área central de San Carlos de Bariloche para proponer mejoras en su movilidad. Realicé relevamientos urbanos, evaluación de la calidad del espacio público y talleres participativos, elaborando un diagnóstico y esquemas conceptuales de posibles intervenciones. El estudio funciona como antecedente y base teórica para futuros proyectos de transformación urbana.",
     link: "https://www.bariloche.gov.ar/participacion-ciudadana-3/"
   },
   ign: {
