@@ -20,25 +20,25 @@ const projects = {
   bariloche: {
     title: "Estudio Conceptual de la Movilidad en Bariloche",
     image: "images/projects/estudio_movilidad_brc2.png",
-    text: "Consultoría para el Banco Interamericano de Desarrollo (BID) en estudio conceptual para la mejora de la movilidad y el transporte en el centro de la ciudad de San Carlos de Bariloche.",
+    text: "En el marco de una Consultoría para el Banco Interamericano de Desarrollo (BID), el objetivo fue analizar el área central de San Carlos de Bariloche para proponer mejoras en su movilidad. Realicé relevamientos urbanos, evaluación de la calidad del espacio público y talleres participativos, elaborando un diagnóstico y esquemas conceptuales de posibles intervenciones. El estudio funciona como antecedente y base teórica para futuros proyectos de transformación urbana."",
     link: "https://www.bariloche.gov.ar/participacion-ciudadana-3/"
   },
   ign: {
     title: "Mapas Base – IGN",
     image: "images/projects/mapas_base_ign2.png",
-    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). Diseño cartográfico y de representación de Argenmap a partir de información publicada del Instituto Geográfico Nacional.",
+    text: "Dirección de Información Geoespacial – Instituto Geográfico Nacional (IGN). En mi participación en el proyecto colaboré en definir los criterios de representación y diseño cartográfico para Argenmap, garantizando consistencia y actualización de los mapas base. Participé en el control y publicación de infomacion geoespacial, documentando procesos y articulando con equipos interdisciplinarios. Se desarrollaron nuevos mapas base y se aseguró su correcta actualización, transfiriendo además los conocimientos en las jornadas de la Infraestructura de Datos Espaciales de la Republica Argentina (IDERA)."",
     link: "https://mapa.ign.gob.ar/?zoom=4&lat=-40&lng=-59&layers=argenmap"
   },
   ide: {
     title: "Fortalecimiento de la IDE Mendoza",
     image: "images/projects/ide_mdz2.png",
-    text: "Consultoría para el fortalecimiento y modernización de la Infraestructura de Datos Espaciales de Mendoza.",
+    text: "Consultoría para el fortalecimiento y modernización de la Infraestructura de Datos Espaciales de Mendoza. En el proyecto se trabajó en la estructuración de la información y en la definición del catálogo de objetos, junto con un diagnóstico de la gestión geoespacial en 12 municipios de Mendoza. Colaboré en la mejora de la calidad de datos y en las capacitaciones técnicas, contribuyendo a que cada municipio dispusiera de su propio visor y autonomía en la gestión y publicación de sus datos.",
     link: "https://ide.mendoza.gov.ar/portal/home/index.html"
   },
   indicadores: {
     title: "Indicadores Urbanos – Mendoza",
     image: "images/projects/iu_mdz2.png",
-    text: "Integración de Zonificación e Indicadores Urbanos en un visualizador GIS para la gestión territorial del municipio de Mendoza.",
+    text: "Integración de Zonificación e Indicadores Urbanos en un visualizador GIS para la gestión territorial del municipio de Mendoza. El desafío consistió en transformar la normativa urbana dispersa (documentación en papel y criterios de aplicación en áreas específicas) en un sistema estructurado y accesible. Se trabajó en el desarrollo metodológico para lograr la vinculación de la información con los parcelarios municipales y permitir su consulta por parcela en un visor GIS. El desarrollo sentó bases para su actualización sistemática y para futuros visores y herramientas de gestión territorial.",
     link: "https://ide.mendoza.gov.ar/portal/apps/experiencebuilder/experience/?id=9373b00cfbf24017a5b08471505615cd"
   }
 };
