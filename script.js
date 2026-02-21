@@ -269,6 +269,10 @@ recorridos.forEach(r => {
 function openRecorrido(nombre) {
   document.getElementById("recorrido-title").innerText = nombre;
 
+  function closeRecorrido() {
+  document.getElementById("recorrido-modal").classList.add("hidden");
+}
+  
   const info = recorridosInfo[nombre];
   document.getElementById("recorrido-text").innerText =
     info?.text || "Recorrido personal.";
