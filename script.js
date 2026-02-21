@@ -2,7 +2,7 @@ const projects = {
   atlas: {
     title: "Atlas Vial – CABA",
     image: "images/projects/atlas_vial2.png",
-    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Ante la ausencia de una representación geográfica del Código de Tránsito y Transporte, se trabajó por comunas digitalizando la regulación vigente por tramo de cuadra y ambos lados de acera. La estructuración de zonas y categorías permitió construir una base georreferenciada consistente. El desarrollo del Atlas Vial del Gobierno de la Ciudad de Buenos Aires fue fundamental para definir, regular áreas de estacionamiento y realizar análisis espaciales de capacidad urbana.",
+    text: "Gerencia Operativa de Planificación Estratégica de la Movilidad - MDUyT. Ante la ausencia de una representación geográfica del Código de Tránsito y Transporte, se trabajó por comunas digitalizando la regulación vigente por tramo de cuadra y ambos lados de acera. La estructuración de zonas y categorías permitió construir una base georreferenciada consistente. El desarrollo del Atlas Vial del Gobierno de la Ciudad de Buenos Aires fue fundamental para definir y regular áreas de estacionamiento y realizar análisis espaciales de capacidad urbana.",
      link: "https://buenosaires.gob.ar/jefaturadegabinete/movilidad/transporte/normas-de-estacionamiento"
   },
   pms: {
