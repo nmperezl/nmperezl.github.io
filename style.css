@@ -138,35 +138,53 @@ a:hover {
   margin-top: 2rem;
 }
 
-
-
-.project-card h3 {
-  background-color: #fff;
-   border-radius: 10px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin: 0.75rem 0 1rem;
-  text-align: center;
-  color: #222;
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;   /* 👈 fuerza alineación vertical */
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
-
 
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
+
+/* Imagen controlada */
 .project-card img {
   width: 100%;
+  height: 190px;         /* 👈 ajustá 180–220 según gusto */
+  object-fit: cover;     /* 👈 recorta sin deformar */
   display: block;
 }
 
+
+/* Título */
 .project-card h3 {
   font-size: 1rem;
+  font-weight: 500;
   margin: 0.5rem 0 1rem;
   text-align: center;
+  color: #222;
 }
 
+/* Texto */
+.project-card p {
+  padding: 0 1rem;
+  font-size: 0.85rem;
+  flex-grow: 1;          /* 👈 ocupa espacio variable */
+}
+
+/* Botón centrado */
+.project-card a {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
 /* =======================
    MODAL GENERAL
 ======================= */
