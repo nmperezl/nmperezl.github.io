@@ -329,3 +329,23 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ================= MAPA ================= */
+
+#map {
+  width: 100%;
+  height: 480px;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+/* popup limpio */
+.leaflet-popup-content {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.leaflet-popup-content b {
+  font-weight: 500;
+}
