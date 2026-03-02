@@ -184,13 +184,33 @@ a:hover {
 /* =======================
    MAPA — PROYECTOS
 ======================= */
+/* MAPA */
 
-#map {
-  height: 420px;
-  width: 100%;
-  margin-top: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.map-svg {
+  width: 420px;
+  max-width: 90%;
+}
+
+.map-shape {
+  fill: none;
+  stroke: #d0d0d0;
+  stroke-width: 1.2;
+}
+
+.map-point {
+  fill: #111;
+}
+
+.map-label {
+  font-size: 12px;
+  fill: #666;
+  font-weight: 300;
 }
 
 
