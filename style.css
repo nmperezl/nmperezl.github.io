@@ -418,3 +418,15 @@ a:hover {
 .leaflet-popup-content b {
   font-weight: 500;
 }
+
+body, 
+p, 
+h1, h2, h3, h4, h5, h6, 
+.project-place, 
+.project-description, 
+.hero-subtitle, 
+.section h2, 
+.contact-form label {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución de espacios */
+}
