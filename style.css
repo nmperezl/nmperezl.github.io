@@ -336,7 +336,6 @@ a:hover {
   background-color: #3a3a3a;
 }
 
-
 /* =======================
    RESPONSIVE
 ======================= */
@@ -363,11 +362,38 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  /* Grid de proyectos en 1 columna */
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem; /* un poco menos para que quede más cómodo */
+  }
+
+  /* Modal scrollable, con cruz visible */
+  .modal {
+    padding: 1rem;
+  }
+
+  .modal-content {
+    max-height: 90vh; /* nunca más alto que la pantalla */
+    overflow-y: auto; /* scroll si el contenido es grande */
+    padding: 1rem;
+  }
+
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* Ajuste de hero */
+  .hero h1 { font-size: 2rem; }
+  .hero h2 { font-size: 1rem; }
+
+  /* Asegurar que la tarjeta tenga margen */
+  .project-card {
+    margin: 0 auto;
   }
 }
-
 
 /* ================= MAPA ================= */
 
