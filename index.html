@@ -134,35 +134,68 @@
 
   <h2>Territorio</h2>
 
-  <p>
-    A lo largo de mis proyectos laborales, la actividad al aire libre y el
-    recorrer lugares estuvo siempre presente: en relevamientos de campo y
-    en el vínculo con las personas de cada región.
-  </p>
-
-  <p>
-    Estar en movimiento forma parte de mi manera de comprender los lugares.
-    Recorrer, observar y habitar el paisaje permite entender dinámicas,
-    escalas y relaciones. En la cercanía con la naturaleza encuentro una
-    claridad que renueva la forma de seguir aprendiendo y explorando.
-  </p>
-
-  <div id="map"></div>
-
-  <ul id="recorridos-list" class="recorridos-list">
-    <li onclick="focusRecorrido('Cinco Lagunas')">Travesía Cinco Lagunas</li>
-    <li onclick="focusRecorrido('Cadenita')">Cadenita</li>
-    <li onclick="focusRecorrido('Capilla')">Cerro Capilla</li>
-    <li onclick="focusRecorrido('Falso Granítico')">Cerro Falso Granítico</li>
-    <li onclick="focusRecorrido('Laguna Azul')">Laguna Azul</li>
-    <li onclick="focusRecorrido('Laguna Torre')">Laguna Torre</li>
-    <li onclick="focusRecorrido('Cerro Tronador')">Cerro Tronador</li>
-    <li onclick="focusRecorrido('Tromen')">Volcán Tromen</li>
-  </ul>
 
 </section>
 
 
+ <!-- MAPA -->
+  <div class="map-container">
+
+    <svg viewBox="0 0 800 500" class="map-svg">
+
+      <!-- Silueta simple Argentina (decorativa) -->
+      <path d="M420,40 
+               C450,80 470,120 460,160
+               C450,200 470,240 455,280
+               C440,320 445,360 430,400
+               C415,440 395,470 380,490
+               C360,460 350,420 355,380
+               C360,340 340,300 350,260
+               C360,220 340,180 360,140
+               C380,100 395,70 420,40 Z"
+            class="map-shape"/>
+
+      <!-- ===== PUNTOS DE PROYECTOS ===== -->
+
+      <!-- Bariloche -->
+      <circle cx="380" cy="160" r="6" class="map-point"/>
+      <text x="395" y="165" class="map-label">Bariloche</text>
+
+      <!-- Mendoza -->
+      <circle cx="340" cy="250" r="6" class="map-point"/>
+      <text x="355" y="255" class="map-label">Mendoza</text>
+
+      <!-- Buenos Aires -->
+      <circle cx="470" cy="300" r="6" class="map-point"/>
+      <text x="485" y="305" class="map-label">Buenos Aires</text>
+
+    </svg>
+
+  </div>
+
+
+  <!-- TARJETAS DE PROYECTOS -->
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>Proyecto Bariloche</h3>
+      <p>Lectura territorial y análisis espacial aplicado a planificación local.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Proyecto Mendoza</h3>
+      <p>Integración de SIG y análisis territorial para toma de decisiones.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Proyecto Buenos Aires</h3>
+      <p>Trabajo interdisciplinario orientado a procesos urbanos y dinámicas espaciales.</p>
+    </div>
+
+  </div>
+
+</section>
+  
 <!-- ================= CONTACTO ================= -->
 <section id="contact" class="section">
   <h2>Contacto</h2>
