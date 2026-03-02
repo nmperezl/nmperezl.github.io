@@ -169,8 +169,10 @@ a:hover {
 }
 
 .project-place {
-  font-size: 0.5rem;
+  font-size: 0.65rem;
   color: #888;
+     text-align: justify; /* justifica el texto */
+  text-justify: inter-word; 
 }
 
 .project-description {
@@ -179,6 +181,8 @@ a:hover {
   line-height: 1.4;
   margin-top: 0.25rem;
   flex-grow: 1;
+  text-align: justify; /* justifica el texto */
+  text-justify: inter-word; 
 }
 
 .project-link {
