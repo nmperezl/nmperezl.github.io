@@ -81,10 +81,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh;   /* menos altura para que no quede tan vacío */
+  height: 85vh;  /* altura - vacío */
   padding: 0 10%;
   background-color: #f9f9f9;
- gap: 10px;
+  gap: 10px;
+ max-width: 720px;
+  margin: 0 auto;
 }
 
 
@@ -94,7 +96,7 @@ a:hover {
   font-weight: 500;
   margin-bottom: 0.3rem;
   color: #111;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 
 
 }
@@ -103,12 +105,19 @@ a:hover {
 .hero h2 {
   font-size: 1.5rem;
   font-weight: 450;
-  color: #555;
+  color: #777;
   margin-bottom: 0.6rem;
   line-height: 1.2;
 }
-
-
+/* linea */
+.hero h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #ddd;
+  margin: 18px auto 0;
+}
 
 .hero-subtitle {
   font-size: 1.2rem;       /* más discreto */
