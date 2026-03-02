@@ -5,261 +5,213 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nadia Pérez Laureda</title>
 
-  <!-- Tipografía (provisoria, después la ajustamos) -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css" />
 
   <link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
 </head>
 
-  
 <body>
 
-  <!-- HEADER / NAV -->
-  <header class="site-header">
-    <nav class="nav">
-      <div class="nav-left">
-        <span class="site-name">Nadia Pérez Laureda - LU6VNL</span>
-      </div>
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <nav class="nav">
+    <div class="nav-left">
+      <span class="site-name">Nadia Pérez Laureda - LU6VNL</span>
+    </div>
 
-      <ul class="nav-right">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#about">Sobre mí</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#recorridos">Recorridos</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <ul class="nav-right">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#recorridos">Territorio</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <!-- HERO / INICIO -->
+<!-- ================= HERO ================= -->
 <section id="inicio" class="hero">
   <h1>Nadia Pérez Laureda</h1>
   <h2>Pensamiento territorial · Tecnología</h2>
-
-  <!--  <p class="hero-subtitle">Miradas sobre diversos territorios</p> Arquitectura · Urbanismo · GIS-->
 </section>
 
 
-  <!-- SOBRE MI -->
-  <section id="about" class="section">
-    <h2>Sobre mí</h2>
+<!-- ================= SOBRE MI ================= -->
+<section id="about" class="section">
+  <h2>Sobre mí</h2>
 
-    <p>
-     Soy arquitecta formada también en Sistemas de Información Geográfica (SIG). 
-   </p>
-   
-    <p>
-     Me interesa conocer y comprender el territorio como un sistema complejo, 
-     donde datos, procesos y dinámicas espaciales permiten interpretar cómo se habita y se transforma el espacio.
-    Traducir esa lectura en herramientas, criterios y soluciones aplicables a situaciones reales.
-    </p>
+  <p>
+    Soy arquitecta formada también en Sistemas de Información Geográfica (SIG).
+  </p>
 
-    <p>
-      Nací en Bariloche, Patagonia, Argentina, donde el vínculo con el entorno natural marcó mi manera de entender los espacios desde temprano. Viví y trabajé en distintas ciudades, 
-      en proyectos de diversas escalas y con equipos multidisciplinarios, 
-      experiencias que me permitieron tener aprendizajes constantes y desarrollar una mirada flexible y curiosa, 
-      así como una capacidad de adaptación a distintos lugares y formas de trabajo. 
-    </p>
+  <p>
+    Me interesa comprender el territorio como un sistema complejo,
+    donde datos, procesos y dinámicas espaciales permiten interpretar
+    cómo se habita y transforma el espacio, traduciendo esa lectura en
+    herramientas y soluciones aplicables a contextos reales.
+  </p>
 
-      <p>
-    Las actividades al aire libre y el recorrer lugares han sido una constante de mi forma de aprender y trabajar, tanto en relevamientos de campo como en experiencias personales. 
-    Estar en movimiento (caminar, observar y habitar el paisaje) es también mi manera de comprender dinámicas, escalas y relaciones, incorporando el territorio desde la experiencia directa.
-</p>
-    
-  </section>
+  <p>
+    Nací en Bariloche, Patagonia, Argentina, donde el vínculo con el entorno
+    natural marcó mi manera de entender los espacios desde temprano.
+    Viví y trabajé en distintas ciudades y proyectos de diversas escalas,
+    desarrollando una mirada flexible y curiosa y capacidad de adaptación
+    a distintos contextos de trabajo.
+  </p>
+
+  <p>
+    Las actividades al aire libre y el recorrer lugares forman parte de mi
+    manera de aprender y trabajar. Caminar, observar y habitar el paisaje
+    permite comprender dinámicas, escalas y relaciones desde la experiencia directa.
+  </p>
+</section>
 
 
-  
+<!-- ================= PROYECTOS ================= -->
 <section id="projects" class="section">
 
   <h2>Proyectos</h2>
-  
-    <p>
-      Estos son algunos proyectos en los que participé, 
-      experiencias que me permitieron profundizar una lectura sistémica del territorio 
-      y asumir un rol activo tanto en los desarrollos como en la definición de criterios que orientaron las soluciones.
-      </p>
-<p>
-  A lo largo de este recorrido fui ocupando un rol de articulación entre lo conceptual y su aplicación en contextos reales.
-</p>
 
+  <p>
+    Estos son algunos proyectos en los que participé, experiencias que me
+    permitieron profundizar una lectura sistémica del territorio y asumir
+    un rol activo tanto en los desarrollos como en la definición de criterios
+    que orientaron las soluciones.
+  </p>
 
-  
+  <p>
+    A lo largo de este recorrido fui ocupando un rol de articulación entre
+    lo conceptual y su aplicación en contextos reales.
+  </p>
+
   <div class="projects-grid">
 
     <div class="project-card" onclick="openProject('atlas')">
-      <img src="images/projects/atlas_vial2.png" alt="Atlas Vial - CABA">
+      <img src="images/projects/atlas_vial2.png">
       <h3>Atlas Vial - CABA</h3>
     </div>
 
-
     <div class="project-card" onclick="openProject('pms')">
-      <img src="images/projects/pms_caba2.png" alt="Plan de Movilidad Sustentable - CABA">
+      <img src="images/projects/pms_caba2.png">
       <h3>Plan de Movilidad Sustentable - CABA</h3>
     </div>
 
-
     <div class="project-card" onclick="openProject('gtfs')">
-      <img src="images/projects/paradas_gtfs2.png" alt="Base Unica de PAradas - GTFS CABA">
-      <h3>Base Unica de Paradas - GTFS CABA</h3>
+      <img src="images/projects/paradas_gtfs2.png">
+      <h3>Base Única de Paradas - GTFS CABA</h3>
     </div>
 
-    
     <div class="project-card" onclick="openProject('bariloche')">
-      <img src="images/projects/estudio_movilidad_brc2.png" alt="Estudio Conceptual de la Movilidad en Bariloche">
-      <h3>Estudio Conceptual de la Movilidad en el centro de Bariloche</h3>
+      <img src="images/projects/estudio_movilidad_brc2.png">
+      <h3>Estudio Conceptual de Movilidad – Bariloche</h3>
     </div>
-
 
     <div class="project-card" onclick="openProject('ign')">
-      <img src="images/projects/mapas_base_ign2.png" alt="Mapas Base – IGN">
-      <h3>Mapas Base – Instituto Geográfico Nacional (IGN)</h3>
+      <img src="images/projects/mapas_base_ign2.png">
+      <h3>Mapas Base – IGN</h3>
     </div>
 
     <div class="project-card" onclick="openProject('ide')">
-      <img src="images/projects/ide_mdz2.png" alt="IDE Mendoza">
-      <h3>Fortalecimiento de la IDE Mendoza</h3>
+      <img src="images/projects/ide_mdz2.png">
+      <h3>Fortalecimiento IDE Mendoza</h3>
     </div>
 
     <div class="project-card" onclick="openProject('indicadores')">
-      <img src="images/projects/iu_mdz2.png" alt="Indicadores Urbanos Mendoza">
+      <img src="images/projects/iu_mdz2.png">
       <h3>Indicadores Urbanos – Mendoza</h3>
     </div>
 
-    </div>
-  </section>
-
-  <!-- RECORRIDOS -->
-  <section id="recorridos" class="section">
-    <h2>Recorridos</h2>
+  </div>
+</section>
 
 
-    <p>
-    A lo largo de mis proyectos laborales, la actividad al aire libre y el recorrer lugares estuvo siempre presente: 
-    en relevamientos en campo y vinculandome con las personas de cada región. 
-    </p>
+<!-- ================= TERRITORIO (ID SE MANTIENE) ================= -->
+<section id="recorridos" class="section">
 
-<p>
-  Estar en movimiento forma parte de mi manera de comprender los lugares. Recorrer, observar y habitar el paisaje permite entender sus dinámicas, sus escalas y sus relaciones. 
-  En la cercanía con la naturaleza encuentro una claridad que renueva la forma de seguir aprendiendo y explorando.
-</p>
+  <h2>Territorio</h2>
 
- 
-    <div id="map" style="height: 400px;"></div>
+  <p>
+    A lo largo de mis proyectos laborales, la actividad al aire libre y el
+    recorrer lugares estuvo siempre presente: en relevamientos de campo y
+    en el vínculo con las personas de cada región.
+  </p>
 
+  <p>
+    Estar en movimiento forma parte de mi manera de comprender los lugares.
+    Recorrer, observar y habitar el paisaje permite entender dinámicas,
+    escalas y relaciones. En la cercanía con la naturaleza encuentro una
+    claridad que renueva la forma de seguir aprendiendo y explorando.
+  </p>
 
-      <!-- LISTA DE RECORRIDOS -->
-<ul id="recorridos-list" class="recorridos-list">
-  <li onclick="focusRecorrido('Cinco Lagunas')">Travesía Cinco Lagunas</li>
-  <li onclick="focusRecorrido('Cadenita')">Cadenita</li>
-  <li onclick="focusRecorrido('Capilla')">Cerro Capilla</li>
-  <li onclick="focusRecorrido('Falso Granítico')">Cerro Falso Granítico</li>
-  <li onclick="focusRecorrido('La Pataia')">Bahia La Pataia</li>
-  <li onclick="focusRecorrido('Laguna Azul')">Laguna Azul</li>
-  <li onclick="focusRecorrido('Laguna de los Tres')">Laguna de los Tres</li>
-  <li onclick="focusRecorrido('Laguna Torre')">Laguna Torre</li>
-  <li onclick="focusRecorrido('Lagunita Catedral')">Lagunita Cerro Catedral</li>
-  <li onclick="focusRecorrido('Motoco')">Motoco</li>
-  <li onclick="focusRecorrido('Cerro Otto')">Cerro Otto</li>
-  <li onclick="focusRecorrido('Otto – Refugio Meiling')">Refugio Meiling</li>
-  <li onclick="focusRecorrido('Padre Laguna')">Cerro Padre Laguna</li>
-  <li onclick="focusRecorrido('Palotinos')">Palotinos</li>
-  <li onclick="focusRecorrido('Penitentes')">Penitentes</li>
-  <li onclick="focusRecorrido('Cerro Piltiriquitron')">Cerro Piltiriquitron</li>
-  <li onclick="focusRecorrido('Ponderado')">Cerro Ponderado</li>
-  <li onclick="focusRecorrido('Tromen')">Volcán Tromen</li>
-  <li onclick="focusRecorrido('Cerro Tronador')">Cerro Tronador</li>
-  <li onclick="focusRecorrido('Ventana')">Ventana</li>
-</ul>
+  <div id="map"></div>
 
-  </section>
+  <ul id="recorridos-list" class="recorridos-list">
+    <li onclick="focusRecorrido('Cinco Lagunas')">Travesía Cinco Lagunas</li>
+    <li onclick="focusRecorrido('Cadenita')">Cadenita</li>
+    <li onclick="focusRecorrido('Capilla')">Cerro Capilla</li>
+    <li onclick="focusRecorrido('Falso Granítico')">Cerro Falso Granítico</li>
+    <li onclick="focusRecorrido('Laguna Azul')">Laguna Azul</li>
+    <li onclick="focusRecorrido('Laguna Torre')">Laguna Torre</li>
+    <li onclick="focusRecorrido('Cerro Tronador')">Cerro Tronador</li>
+    <li onclick="focusRecorrido('Tromen')">Volcán Tromen</li>
+  </ul>
+
+</section>
 
 
-  <!-- CONTACTO -->
+<!-- ================= CONTACTO ================= -->
 <section id="contact" class="section">
   <h2>Contacto</h2>
 
-  <p>
-    Para contactarte podés dejar un mensaje o encontrarme en LinkedIn.
-  </p>
+  <p>Para contactarte podés dejar un mensaje o encontrarme en LinkedIn.</p>
 
-  <form
-    class="contact-form"
-    action="mailto:n.perezlaureda@gmail.com"
-    method="POST"
-    enctype="text/plain"
-  >
-    <input
-      type="text"
-      name="name"
-      placeholder="Nombre"
-      required
-    >
+  <form class="contact-form"
+        action="mailto:n.perezlaureda@gmail.com"
+        method="POST"
+        enctype="text/plain">
 
-    <input
-      type="email"
-      name="email"
-      placeholder="Email"
-      required
-    >
+    <input type="text" name="name" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Email" required>
 
-    <textarea
-      name="message"
-      placeholder="Mensaje"
-      rows="5"
-      required
-    ></textarea>
+    <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
 
     <button type="submit">Enviar mensaje</button>
   </form>
 
   <p class="contact-linkedin">
-    <a href="https://www.linkedin.com/in/nadiaperezl/" target="_blank" rel="noopener">
+    <a href="https://www.linkedin.com/in/nadiaperezl/" target="_blank">
       LinkedIn
     </a>
   </p>
 </section>
 
 
-
-
-<!-- MODAL PROYECTOS -->
+<!-- ================= MODALES ================= -->
 <div id="project-modal" class="modal hidden">
   <div class="modal-content">
     <span class="modal-close" onclick="closeProject()">✕</span>
-
     <h3 id="modal-title"></h3>
-    <img id="modal-image" src="" alt="">
+    <img id="modal-image">
     <p id="modal-text"></p>
-
     <p id="modal-link" class="modal-link"></p>
-
   </div>
 </div>
 
-<!-- MODAL RECORRIDOS -->
 <div id="recorrido-modal" class="modal hidden">
   <div class="modal-content">
     <span class="modal-close" onclick="closeRecorrido()">✕</span>
-
     <h3 id="recorrido-title"></h3>
     <p id="recorrido-text"></p>
-
-    <!-- Galería (vacía por ahora) -->
     <div id="recorrido-gallery" class="gallery"></div>
   </div>
 </div>
-  
 
-
- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="script.js"></script>
-  
+
 </body>
 </html>
