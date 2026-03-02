@@ -140,7 +140,6 @@ a:hover {
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .project-card:hover {
@@ -150,7 +149,7 @@ a:hover {
 
 .project-card img {
   width: 100%;
-  height: 190px;
+  height: 180px;
   object-fit: cover;
 }
 
@@ -158,7 +157,8 @@ a:hover {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.25rem;
+  flex-grow: 1;
 }
 
 .project-info h3 {
@@ -166,21 +166,19 @@ a:hover {
   font-weight: 500;
   margin: 0;
   color: #222;
-  text-align: center;
 }
 
 .project-place {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #888;
-  text-align: center;
 }
 
 .project-description {
   font-size: 0.85rem;
   color: #444;
   line-height: 1.4;
+  margin-top: 0.25rem;
   flex-grow: 1;
-  text-align: center;
 }
 
 .project-link {
@@ -189,12 +187,33 @@ a:hover {
   color: #111;
   text-align: center;
   margin-top: 0.5rem;
+  padding: 0.5rem 0;
   transition: transform 0.25s ease, color 0.25s ease;
 }
 
 .project-card:hover .project-link {
   transform: translateX(5px);
   color: #a28fd0;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 /* =======================
    MAPA — PROYECTOS
