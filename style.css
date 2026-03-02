@@ -373,17 +373,22 @@ a:hover {
     padding: 1rem;
   }
 
+
   .modal-content {
-    max-height: 90vh; /* nunca más alto que la pantalla */
-    overflow-y: auto; /* scroll si el contenido es grande */
-    padding: 1rem;
+    width: 95%;          /* nunca más ancho que la pantalla */
+    max-width: 95%;      /* límite máximo */
+    box-sizing: border-box; /* incluye padding en el ancho */
+    margin: 1rem auto;    /* centrado y con separación de los bordes */
+    overflow-y: auto;     /* scroll si es muy alto */
   }
 
   .modal-close {
-    top: 0.5rem;
-    right: 0.5rem;
-    font-size: 1.2rem;
+    top: 0.8rem;
+    right: 0.8rem;
+    font-size: 1.4rem;
+    z-index: 2100;
   }
+}}
 
   /* Ajuste de hero */
   .hero h1 { font-size: 2rem; }
