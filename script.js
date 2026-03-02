@@ -6,7 +6,7 @@ const projects = {
 
     atlas: {
     title: "Atlas Vial – CABA",
-    place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Planificación Estratégica de la Movilidad · MDUyT",
+    place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Planificación Estratégica de la Movilidad",
     summary:
       "Digitalización normativa y construcción de una base georreferenciada.",
     image: "images/projects/atlas_vial2.png",
@@ -20,7 +20,7 @@ const projects = {
 
    pms: {
   title: "Plan de Movilidad Sustentable – CABA",
-  place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Planificación Estratégica de la Movilidad · MDUyT",
+  place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Planificación Estratégica de la Movilidad",
 
   summary:
     "Diagnóstico y sistematización para la actualización estratégica de la movilidad urbana.",
@@ -37,7 +37,7 @@ const projects = {
    
 gtfs: {
   title: "Base Única de Paradas – GTFS CABA",
-  place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Innovación y Tecnología en Transporte · MDUyT",
+  place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Innovación y Tecnología en Transporte",
 
   summary:
     "Integración y estandarización de datos de transporte público para la generación del GTFS y sistemas predictivos.",
