@@ -86,29 +86,33 @@ a:hover {
   background-color: #f9f9f9;
 }
 
+
+/* NOMBRE */
 .hero h1 {
-  font-size: 1rem;       /* nombre  */
-  font-weight: 300;
-  margin-bottom: 0.5rem;
-  color: #666;
+  font-size: 2rem;       /* más grande que h2 */
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: #111;
   letter-spacing: 0.5px;
 }
 
+/* TITULO CONCEPTO */
 .hero h2 {
-  font-size: 1.5rem;     /* más sutil que el nombre */
+  font-size: 1.5rem;
   font-weight: 400;
   color: #555;
-  margin-bottom: 0.25rem;
-   line-height: 1;
+  margin-bottom: 0.6rem;
+  line-height: 1.2;
 }
- 
-.hero h3 {  /* breve descripcion */
-  font-size: 0.08rem;
-  font-weight: 150;
-  color: #555;
+
+/* DESCRIPCIÓN */
+.hero h3 {
+  font-size: 0.95rem;   
+  font-weight: 300;
+  color: #666;
   max-width: 560px;
-  line-height: 0.6;
-  margin-top: 0.8rem;
+  line-height: 1.6;
+  margin-top: 0.6rem;
 }
 
 .hero-subtitle {
