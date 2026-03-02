@@ -84,6 +84,7 @@ a:hover {
   height: 70vh;   /* menos altura para que no quede tan vacío */
   padding: 0 10%;
   background-color: #f9f9f9;
+ gap: 10px;
 }
 
 
@@ -91,15 +92,17 @@ a:hover {
 .hero h1 {
   font-size: 2rem;       /* más grande que h2 */
   font-weight: 500;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
   color: #111;
   letter-spacing: 0.5px;
+
+
 }
 
 /* TITULO CONCEPTO */
 .hero h2 {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 450;
   color: #555;
   margin-bottom: 0.6rem;
   line-height: 1.2;
@@ -108,7 +111,7 @@ a:hover {
 /* DESCRIPCIÓN */
 .hero h3 {
   font-size: 0.95rem;   
-  font-weight: 300;
+  font-weight: 350;
   color: #666;
   max-width: 560px;
   line-height: 1.6;
