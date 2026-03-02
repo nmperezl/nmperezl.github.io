@@ -108,15 +108,7 @@ a:hover {
   line-height: 1.2;
 }
 
-/* DESCRIPCIÓN */
-.hero h3 {
-  font-size: 0.95rem;   
-  font-weight: 350;
-  color: #666;
-  max-width: 560px;
-  line-height: 1.6;
-  margin-top: 0.6rem;
-}
+
 
 .hero-subtitle {
   font-size: 1.2rem;       /* más discreto */
