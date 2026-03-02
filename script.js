@@ -177,21 +177,21 @@ const ciudades = [
   nombre:"Buenos Aires (CABA)",
   coords:[-34.6037,-58.3816],
   zoom:12,
-  proyectos:["Atlas Vial","Plan Movilidad","GTFS"]
+  proyectos:["• Atlas Vial","• Plan Movilidad","• GTFS","• Argenmap"]
 },
 
 {
   nombre:"Bariloche",
   coords:[-41.1335,-71.3103],
   zoom:12,
-  proyectos:["Estudio Movilidad"]
+  proyectos:["• Estudio Movilidad"]
 },
 
 {
   nombre:"Mendoza",
   coords:[-32.8895,-68.8458],
   zoom:12,
-  proyectos:["IDE Mendoza","Indicadores Urbanos"]
+  proyectos:["• IDE Mendoza","• Indicadores Urbanos"]
 }
 
 ];
