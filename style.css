@@ -398,7 +398,7 @@ a:hover {
   .project-card {
     margin: 0 auto;
   }
-}
+
 
 /* ================= MAPA ================= */
 
@@ -407,6 +407,7 @@ a:hover {
   height: 480px;
   border-radius: 10px;
   margin-top: 2rem;
+   
 }
 
 /* popup limpio */
