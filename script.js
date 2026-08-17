@@ -17,7 +17,7 @@ const projects = {
     title: "Plan de Movilidad Sustentable – CABA",
     place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Planificación Estratégica de la Movilidad",
     summary: "Diagnóstico y sistematización para la actualización estratégica de la movilidad urbana.",
-   /*   image: "images/projects/pms_caba2.png",*/
+     image: "images/projects/pms_caba2.png",
     text: "Con la necesidad de actualizar la estrategia de movilidad de la Ciudad de Buenos Aires, participé en la recopilación de antecedentes y en la estructuración del nuevo plan. Formé parte de un equipo multidisciplinario elaborando diagnóstico, sistematización de información y análisis territorial. El trabajo sirvió como base técnica para el posterior Plan de Movilidad 2030 publicado por la Ciudad.",
     link: "https://buenosaires.gob.ar/gcaba_historico/noticias/la-ciudad-presento-el-plan-de-movilidad-sustentable-2030"
   },
@@ -26,7 +26,7 @@ const projects = {
     title: "Base Única de Paradas – GTFS CABA",
     place: "Gobierno de la Ciudad de Buenos Aires · Gerencia Operativa de Innovación y Tecnología en Transporte",
     summary: "Integración y estandarización de datos de transporte público.",
-/*      image: "images/projects/paradas_gtfs2.png",*/
+       image: "images/projects/paradas_gtfs2.png",
     text: "El proyecto consistió en consolidar la información estática del sistema GTFS. Las paradas de colectivos estaban distribuidas en tres bases distintas (ubicaciones legales, instalación en territorio y estimaciones a partir de transacciones SUBE). Se unificó y estructuró la información en una base única, documentando flujos de trabajo para articular áreas y asegurar consistencia. Esta integración permitió generar el GTFS, alimentar sistemas predictivos y optimizar la planificación y evaluación de nuevas paradas.",
     link: "https://datosabiertos-apis.buenosaires.gob.ar/BA_Root/Documentacion?schema_name=Transporte_3"
   },
@@ -35,7 +35,7 @@ const projects = {
     title: "Estudio Conceptual de la Movilidad en Bariloche",
     place: "Banco Interamericano de Desarrollo (BID)",
     summary: "Diagnóstico conceptual para mejorar la movilidad.",
-   /*    image: "images/projects/estudio_movilidad_brc2.png",*/
+    image: "images/projects/estudio_movilidad_brc2.png", 
     text: "En el marco de una Consultoría para el Banco Interamericano de Desarrollo (BID), el objetivo fue analizar el área central de San Carlos de Bariloche para proponer mejoras en su movilidad. Realicé relevamientos urbanos, evaluación de la calidad del espacio público y talleres participativos, elaborando un diagnóstico y esquemas conceptuales de posibles intervenciones. El estudio funciona como antecedente y base teórica para futuros proyectos de transformación urbana.",
     link: "https://www.bariloche.gov.ar/participacion-ciudadana-3/"
   },
@@ -44,7 +44,7 @@ const projects = {
     title: "Mapas Base – IGN",
     place: "Instituto Geográfico Nacional",
     summary: "Criterios cartográficos y actualización de mapas.",
-   /*  image: "images/projects/mapas_base_ign2.png",*/
+     image: "images/projects/mapas_base_ign2.png", 
     text: "En mi participación en el proyecto colaboré en definir los criterios de representación y diseño cartográfico para Argenmap, garantizando consistencia y actualización de los mapas base. Participé en el control y publicación de información geoespacial, documentando procesos y articulando con equipos interdisciplinarios. Se desarrollaron nuevos mapas base y se aseguró su correcta actualización, transfiriendo además los conocimientos en las jornadas de IDERA (Infraestructura de Datos Espaciales de la República Argentina).",
     link: "https://mapa.ign.gob.ar/?zoom=4&lat=-40&lng=-59&layers=argenmap"
   },
@@ -53,7 +53,7 @@ const projects = {
     title: "Fortalecimiento de la IDE Mendoza",
     place: "Ministerio de Infraestructura y Desarrollo Urbano · Mendoza",
     summary: "Estructuración de información geoespacial.",
-    /*image: "images/projects/ide_mdz2.png",*/
+    image: "images/projects/ide_mdz2.png", 
     text: "Consultoría para el fortalecimiento y modernización de la Infraestructura de Datos Espaciales de Mendoza. Participé en la estructuración de la información y en la definición del catálogo de objetos, junto con un diagnóstico de la gestión geoespacial en 12 municipios de Mendoza. Colaboré en la mejora de la calidad de datos y en las capacitaciones técnicas, contribuyendo a que cada municipio dispusiera de su propio visor y autonomía en la gestión y publicación de sus datos.",
     link: "https://ide.mendoza.gov.ar/portal/apps/sites/#/portal-mendoza/"
   },
@@ -62,7 +62,7 @@ const projects = {
     title: "Indicadores Urbanos – Mendoza - Etapa I",
     place: "Ministerio de Infraestructura y Desarrollo Urbano· Mendoza",
     summary: "Sistema GIS para normativa urbana.",
- /*   image: "images/projects/iu_mdz2.png",*/
+     image: "images/projects/iu_mdz2.png", 
     text: "El desafío consistió en transformar la normativa urbana dispersa (documentación en papel y criterios de aplicación en áreas específicas) en un sistema estructurado y accesible. Realicé el desarrollo metodológico para lograr la vinculación de la información con los parcelarios municipales de 5 municipios y permitir su consulta por parcela en un visor GIS. El desarrollo sentó las bases para su actualización sistemática y para futuros visores y herramientas de gestión territorial.",
     link: "https://ide.mendoza.gov.ar/portal/apps/experiencebuilder/experience/?id=9373b00cfbf24017a5b08471505615cd"
   },
@@ -71,7 +71,7 @@ const projects = {
     title: "Indicadores Urbanos – Mendoza - Etapa II",
     place: "Ministerio de Infraestructura y Desarrollo Urbano · Mendoza",
     summary: "Sistema GIS para normativa urbana.",
- /*   image: "images/projects/iu_mdz2.png",*/
+    image: "images/projects/iu_mdz2.png", 
     text: "Facilitar el acceso a la normativa urbana dispersa. En una segunda etapa, el desarrollo se extendió a otros 6 municipios de la provincia, incorporando además mejoras en la visualización y en la experiencia de consulta.",
     link: "https://ide.mendoza.gov.ar/portal/apps/experiencebuilder/experience/?id=5d996a91e2084fc1a8d5cbf0ff63adc9"
   },
